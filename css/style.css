@@ -73,7 +73,7 @@ td { vertical-align: top; }
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
+body{ font:16px/26px Lusitana, Helvetica, Helvetica Neue, Arial; }
 
 .wrapper{
   width:90%;
@@ -84,7 +84,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 20px solid #e44d26; }
+#header-container{ border-bottom: 20px solid #e44d26; border-bottom: 6px solid #666; }
 #footer-container{ border-top:    20px solid #e44d26; }
 #main aside      { border-top:    20px solid #e44d26; }
 
