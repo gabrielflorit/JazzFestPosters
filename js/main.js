@@ -1,8 +1,7 @@
 var chart;
 $(document).ready(function() {
 
-	var postersData = [[161.2, 51.6], [167.5, 59.0], [159.5, 49.2], [157.0, 63.0], [155.8, 53.6]];
-	postersData = _.map(posters.posters, function(poster){ return poster.Appreciation; });
+	var postersData = _.map(posters, function(poster) { return poster.Appreciation; });
 
 	chart = new Highcharts.Chart({
 		chart: {
@@ -28,31 +27,16 @@ $(document).ready(function() {
 				lineWidth: 0
 			}
 		},
-
-		// plotOptions: {
-		// 	scatter: {
-		// 		marker: {
-		// 			radius: 5,
-		// 			states: {
-		// 				hover: {
-		// 					enabled: true,
-		// 					lineColor: 'rgb(100,100,100)'
-		// 				}
-		// 			}
-		// 		},
-		// 		states: {
-		// 			hover: {
-		// 				marker: {
-		// 					enabled: false
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// },
 		series: [{
-			name: 'Appreciation (2012 US dollars)',
-			// color: 'rgba(223, 83, 83, .5)',
-			data: postersData
+			data: postersData,
+			point: {
+				events: {
+					mouseOver: function() {
+						var test = posters[this.x];
+						$('#poster').attr('src', 'img/posters/' + test.YEAR + '.jpg');
+					}
+				}
+			}
 		}],
 		subtitle: {
 			text: ''
@@ -60,21 +44,10 @@ $(document).ready(function() {
 		title: {
 			text: null
 		},
-		tooltip: {
-			// crosshairs: true
-			// crosshairs: {
-			// 	width: 2,
-			// 	color: '#c3c3c3',
-			// 	dashStyle: 'shortdot'
-			// }
-		},
 		xAxis: {
 			title: {
 				text: null
 			},
-			startOnTick: true,
-			endOnTick: true,
-			showLastLabel: true
 		},
 		yAxis: {
 			title: {
@@ -82,5 +55,12 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+
+
+
+
+
+
 });
 

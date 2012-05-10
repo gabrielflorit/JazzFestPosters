@@ -1,8 +1,7 @@
-var posters = {
-  "posters" : [
+var posters = [
     {
       "Appreciation" : 2568.68,
-      "YEAR" : 35,
+      "YEAR" : 1975,
       "NUNSIGNED" : 1300,
       "NSIGNED" : 0,
       "PSIZE" : 432,
@@ -16,7 +15,7 @@ var posters = {
     },
     {
       "Appreciation" : 1142.75,
-      "YEAR" : 34,
+      "YEAR" : 1976,
       "NUNSIGNED" : 1000,
       "NSIGNED" : 1000,
       "PSIZE" : 805,
@@ -30,7 +29,7 @@ var posters = {
     },
     {
       "Appreciation" : 638.22,
-      "YEAR" : 33,
+      "YEAR" : 1977,
       "NUNSIGNED" : 5000,
       "NSIGNED" : 500,
       "PSIZE" : 690,
@@ -44,7 +43,7 @@ var posters = {
     },
     {
       "Appreciation" : 567.23,
-      "YEAR" : 32,
+      "YEAR" : 1978,
       "NUNSIGNED" : 5000,
       "NSIGNED" : 1000,
       "PSIZE" : 793.5,
@@ -58,7 +57,7 @@ var posters = {
     },
     {
       "Appreciation" : 388.13,
-      "YEAR" : 31,
+      "YEAR" : 1979,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 1000,
       "PSIZE" : 969,
@@ -72,7 +71,7 @@ var posters = {
     },
     {
       "Appreciation" : 480.4,
-      "YEAR" : 30,
+      "YEAR" : 1980,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 1500,
       "PSIZE" : 737,
@@ -86,7 +85,7 @@ var posters = {
     },
     {
       "Appreciation" : 331.91,
-      "YEAR" : 29,
+      "YEAR" : 1981,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2000,
       "PSIZE" : 558,
@@ -100,7 +99,7 @@ var posters = {
     },
     {
       "Appreciation" : 275.57,
-      "YEAR" : 28,
+      "YEAR" : 1982,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2000,
       "PSIZE" : 672,
@@ -114,7 +113,7 @@ var posters = {
     },
     {
       "Appreciation" : 166.42,
-      "YEAR" : 27,
+      "YEAR" : 1983,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 600,
@@ -128,7 +127,7 @@ var posters = {
     },
     {
       "Appreciation" : 139.8,
-      "YEAR" : 26,
+      "YEAR" : 1984,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 600,
@@ -142,7 +141,7 @@ var posters = {
     },
     {
       "Appreciation" : 286.04,
-      "YEAR" : 25,
+      "YEAR" : 1985,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 648,
@@ -156,7 +155,7 @@ var posters = {
     },
     {
       "Appreciation" : 82.21,
-      "YEAR" : 24,
+      "YEAR" : 1986,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 748,
@@ -170,7 +169,7 @@ var posters = {
     },
     {
       "Appreciation" : 134.42,
-      "YEAR" : 23,
+      "YEAR" : 1987,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 576,
@@ -184,7 +183,7 @@ var posters = {
     },
     {
       "Appreciation" : 101.83,
-      "YEAR" : 22,
+      "YEAR" : 1988,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 640,
@@ -198,7 +197,7 @@ var posters = {
     },
     {
       "Appreciation" : 434.5,
-      "YEAR" : 21,
+      "YEAR" : 1989,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 704,
@@ -212,7 +211,7 @@ var posters = {
     },
     {
       "Appreciation" : 72.35,
-      "YEAR" : 20,
+      "YEAR" : 1990,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2500,
       "PSIZE" : 660,
@@ -226,7 +225,7 @@ var posters = {
     },
     {
       "Appreciation" : 51.5,
-      "YEAR" : 19,
+      "YEAR" : 1993,
       "NUNSIGNED" : 15000,
       "NSIGNED" : 15000,
       "PSIZE" : 748,
@@ -240,7 +239,7 @@ var posters = {
     },
     {
       "Appreciation" : 108.91,
-      "YEAR" : 18,
+      "YEAR" : 1994,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 2000,
       "PSIZE" : 432,
@@ -254,7 +253,7 @@ var posters = {
     },
     {
       "Appreciation" : 817.27,
-      "YEAR" : 17,
+      "YEAR" : 1995,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 2500,
       "PSIZE" : 735,
@@ -268,7 +267,7 @@ var posters = {
     },
     {
       "Appreciation" : 453.36,
-      "YEAR" : 16,
+      "YEAR" : 1996,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 735,
@@ -282,7 +281,7 @@ var posters = {
     },
     {
       "Appreciation" : 344.97,
-      "YEAR" : 15,
+      "YEAR" : 1997,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 759,
@@ -296,7 +295,7 @@ var posters = {
     },
     {
       "Appreciation" : 544.04,
-      "YEAR" : 14,
+      "YEAR" : 1998,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 648,
@@ -310,7 +309,7 @@ var posters = {
     },
     {
       "Appreciation" : 232.53,
-      "YEAR" : 13,
+      "YEAR" : 1999,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 680,
@@ -324,7 +323,7 @@ var posters = {
     },
     {
       "Appreciation" : 281.4,
-      "YEAR" : 12,
+      "YEAR" : 2000,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 735,
@@ -338,7 +337,7 @@ var posters = {
     },
     {
       "Appreciation" : 563.58,
-      "YEAR" : 11,
+      "YEAR" : 2001,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 828,
@@ -352,7 +351,7 @@ var posters = {
     },
     {
       "Appreciation" : 174.77,
-      "YEAR" : 10,
+      "YEAR" : 2002,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 665,
@@ -366,7 +365,7 @@ var posters = {
     },
     {
       "Appreciation" : 87.67,
-      "YEAR" : 9,
+      "YEAR" : 2003,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 684,
@@ -380,7 +379,7 @@ var posters = {
     },
     {
       "Appreciation" : 53.35,
-      "YEAR" : 8,
+      "YEAR" : 2004,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 700,
@@ -394,7 +393,7 @@ var posters = {
     },
     {
       "Appreciation" : 105.7,
-      "YEAR" : 7,
+      "YEAR" : 2005,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 736,
@@ -408,7 +407,7 @@ var posters = {
     },
     {
       "Appreciation" : 317.87,
-      "YEAR" : 6,
+      "YEAR" : 2006,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 3500,
       "PSIZE" : 720,
@@ -422,7 +421,7 @@ var posters = {
     },
     {
       "Appreciation" : 53.66,
-      "YEAR" : 5,
+      "YEAR" : 2007,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 814,
@@ -436,7 +435,7 @@ var posters = {
     },
     {
       "Appreciation" : 51.48,
-      "YEAR" : 4,
+      "YEAR" : 2008,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 544,
@@ -450,7 +449,7 @@ var posters = {
     },
     {
       "Appreciation" : 56.22,
-      "YEAR" : 3,
+      "YEAR" : 2009,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 720,
@@ -464,7 +463,7 @@ var posters = {
     },
     {
       "Appreciation" : 22.41,
-      "YEAR" : 2,
+      "YEAR" : 2010,
       "NUNSIGNED" : 12500,
       "NSIGNED" : 2000,
       "PSIZE" : 805,
@@ -478,7 +477,7 @@ var posters = {
     },
     {
       "Appreciation" : -1.44,
-      "YEAR" : 1,
+      "YEAR" : 2011,
       "NUNSIGNED" : 10000,
       "NSIGNED" : 3000,
       "PSIZE" : 684,
@@ -490,5 +489,4 @@ var posters = {
       "MLIFE" : "Alive",
       "MINST" : "V"
     }
-  ]
-};
+  ];

@@ -80,6 +80,8 @@ body{ font:16px/26px Lusitana, Helvetica, Helvetica Neue, Arial; }
   margin:0 5%;
 }
 
+img { max-width: 100%; }
+
 /* ===================
     ALL: Orange Theme
    =================== */
