@@ -488,5 +488,19 @@ var posters = [
       "MFAME" : 5,
       "MLIFE" : "Alive",
       "MINST" : "V"
+    },
+    {
+      "Appreciation" : 0,
+      "YEAR" : 2012,
+      "NUNSIGNED" : 10000,
+      "NSIGNED" : 2500,
+      "PSIZE" : 665,
+      "AFREQUENCY" : 1,
+      "ALIFE" : "Alive",
+      "MRACE" : "Black",
+      "MINST_OLD" : "Band",
+      "MFAME" : 3,
+      "MLIFE" : "Alive",
+      "MINST" : "O"
     }
   ];
